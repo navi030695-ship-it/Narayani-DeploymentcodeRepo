@@ -16,7 +16,7 @@ spec:
    spec:
      containers:
      - name: myappcontainer
-       image: naveen0101/narayani:latest
+       image: naveen0101/narayani:IMAGE_TAG
        imagePullPolicy: Always
        ports:
        - containerPort: 8080
